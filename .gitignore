@@ -1,0 +1,78 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and runtime files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.pid.lock
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+secrets/
+*.secret
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs / binaries
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.class
+*.jar
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# JavaScript / TypeScript
+.next/
+.nuxt/
+.svelte-kit/
+.parcel-cache/
+.turbo/
+coverage/
+*.tsbuildinfo
+
+# Archives / packaged artifacts
+*.zip
+*.tar
+*.gz
+*.tgz
+*.7z
+*.rar
